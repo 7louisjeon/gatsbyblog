@@ -1,17 +1,25 @@
+body {
+  background-color: black;
+}
+
 .container {
     margin: auto;
     width: 60vw;
     font-family: sans-serif;
+    border: 1px solid yellowgreen;
+    border-radius: 30px;
+    overflow: hidden;
   }
   .heading {
-    color: crimson;
+    color: yellowgreen;
+    margin-left: 20px;
   }
   .nav-links {
     display: flex;
     list-style: none;
     padding-left: 0;
-    border: 2px solid crimson;
-    border-radius: 10px;
+    border-top: 2px solid crimson;
+    border-bottom: 2px solid crimson;
   }
   .nav-link-item {
     margin: auto;
@@ -20,11 +28,14 @@
     text-decoration: none;
   }
   .nav-link-text {
-    color: crimson;
+    color: greenyellow;
   }
 
   .site-title {
+    margin-left: 20px;
     font-size: 3rem;
-    color: gray;
+    color: greenyellow;
     font-weight: 700;
   }
+
+  
