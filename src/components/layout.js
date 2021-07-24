@@ -35,8 +35,33 @@ const Layout = ({ pageTitle, children }) => {
             </Link>
           </li>
           <li className={navLinkItem}>
-            <Link to="/blog" className={navLinkText}>
-              Blog
+            <Link to="/javascript" className={navLinkText}>
+              HTML&CSS
+            </Link>
+          </li>
+          <li className={navLinkItem}>
+            <Link to="/javascript" className={navLinkText}>
+              JavaScript
+            </Link>
+          </li>
+          <li className={navLinkItem}>
+            <Link to="/javascript" className={navLinkText}>
+              React
+            </Link>
+          </li>
+          <li className={navLinkItem}>
+            <Link to="/javascript" className={navLinkText}>
+              Node JS
+            </Link>
+          </li>
+          <li className={navLinkItem}>
+            <Link to="/javascript" className={navLinkText}>
+              Computer Science
+            </Link>
+          </li>
+          <li className={navLinkItem}>
+            <Link to="/javascript" className={navLinkText}>
+              Algorithms & Data Structures
             </Link>
           </li>
         </ul>

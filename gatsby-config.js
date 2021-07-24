@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Predo's dev blog",
+    title: "CODE:RED's dev blog",
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: `blog`,
-        path: `${__dirname}/blog`,
+        name: `JavaScript`,
+        path: `${__dirname}/JavaScript`,
       }
     },
     "gatsby-plugin-mdx",
